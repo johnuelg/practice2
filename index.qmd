@@ -17,9 +17,27 @@ To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
 <iframe
     src="https://rawcdn.githack.com/johnuelg/practice1/bdb06d05184ea41846aa0e5671da7805fa457750/index.html"
-    scrolling="no"
-    style="width: 100%; height: 100vh; border: none;">
+    style = "background-color: #F7F9FB;border: none; overflow: hidden; width: 100%; height: 700px;",
+    scrolling = "no">
 </iframe>
 
 
+:::
+
+
+
+::: {.grid}
+::: {.g-col-12}
+```{r, echo=FALSE}
+#| column: screen
+#| out-width: 100%
+
+htmltools::tags$iframe(
+  src = "https://rawcdn.githack.com/johnuelg/practice1/bdb06d05184ea41846aa0e5671da7805fa457750/index.html",
+  style = "border: none; overflow: hidden; width: 100%; height: 850px;",
+  scrolling = "no"
+)
+```
+
+:::
 :::
