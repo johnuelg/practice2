@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "practice2",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n&lt;iframe src=“https://rawcdn.githack.com/johnuelg/practice1/bdb06d05184ea41846aa0e5671da7805fa457750/index.html” style = “background-color: #F7F9FB;border: none; overflow: hidden; width: 100%; height: 700px;”, scrolling = “no”&gt;"
   },
   {
     "objectID": "about.html",
